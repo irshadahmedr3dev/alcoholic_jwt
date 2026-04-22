@@ -14,7 +14,7 @@ trying to use the other Rust libraries that are made for similar
 purposes.
 
 ## Usage overview
-
+...
 You are retrieving JWTs from some authentication provider that uses
 `RS256` signatures and provides its public keys in [JWKS][] format.
 
