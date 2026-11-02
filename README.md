@@ -45,7 +45,7 @@ let kid = token_kid(&token)
     .expect("Failed to decode token headers")
     .expect("No 'kid' claim present in token");
 
-let jwk = jwks.find(&kid).expect("Specified key not found in set");
+let jwk = jwks.find(&kid).expect("Specified key not found in set");jaan
 
 validate(token, jwk, validations).expect("Token validation has failed!");
 ```
